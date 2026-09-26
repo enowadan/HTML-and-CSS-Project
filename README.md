@@ -9,6 +9,7 @@ This repository now includes a personal portfolio site that showcases:
 - a Projects section presenting featured coursework and work samples
 - a Skills section summarizing technical abilities
 - a Contact section with a basic communication form
+- a JavaScript image lightbox with captions, previous/next controls, and keyboard navigation
 - a polished footer with social links and branding
 
 ## Course Projects Included
@@ -62,4 +63,6 @@ The main focus of this repository is to practice and apply the core skills requi
 - README.md — repository overview and project summary
 
 ## Live Deployment
-This portfolio is intended to be deployed using GitHub Pages or another hosted web service for review and presentation.
+
+- Portfolio source: [enowadan/Portfolio](https://github.com/enowadan/Portfolio)
+- Live website: [enowadan.github.io/Portfolio](https://enowadan.github.io/Portfolio/)
