@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script src="One-Page Website/JS/one_page_website.js" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -18,6 +19,7 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#gallery">Gallery</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -44,9 +46,9 @@
       </div>
 
       <div class="hero-card">
-        <div class="profile-image-wrap">
-          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80" alt="Portrait of the developer" />
-        </div>
+        <button class="profile-image-wrap lightbox-trigger" type="button" data-full="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1800&q=90" aria-label="View larger portrait of the developer">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=75" alt="Portrait of the developer" />
+        </button>
         <div class="card-info">
           <span class="status-dot"></span>
           Available for freelance work
@@ -113,6 +115,31 @@
             <p>A multi-column footer built with Bootstrap grid classes to organize contact info, social links, and copyright details.</p>
           </article>
         </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="content-section container">
+      <div class="section-heading">
+        <p class="eyebrow">Gallery</p>
+        <h2>A few moments of inspiration.</h2>
+      </div>
+      <div class="image-gallery" aria-label="Photo gallery">
+        <button class="gallery-item lightbox-trigger" type="button" data-full="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1800&q=90" aria-label="View larger image: mountain sunrise">
+          <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=480&q=70" alt="Sunrise over a misty mountain landscape" loading="lazy" />
+          <span>Mountain sunrise</span>
+        </button>
+        <button class="gallery-item lightbox-trigger" type="button" data-full="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1800&q=90" aria-label="View larger image: alpine lake">
+          <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=480&q=70" alt="Alpine lake surrounded by mountains" loading="lazy" />
+          <span>Alpine lake</span>
+        </button>
+        <button class="gallery-item lightbox-trigger" type="button" data-full="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1800&q=90" aria-label="View larger image: forest trail">
+          <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=480&q=70" alt="Sunlight falling across a green forest trail" loading="lazy" />
+          <span>Forest trail</span>
+        </button>
+        <button class="gallery-item lightbox-trigger" type="button" data-full="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=90" aria-label="View larger image: open landscape">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=480&q=70" alt="Wide open landscape beneath a blue sky" loading="lazy" />
+          <span>Open landscape</span>
+        </button>
       </div>
     </section>
 
